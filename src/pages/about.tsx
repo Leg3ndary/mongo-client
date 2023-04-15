@@ -1,3 +1,9 @@
+import NavBar from "@/components/NavBar";
+
 export default function About() {
-  return <div>About</div>
+  return (
+    <main className="flex min-h-screen flex-col items-center justify-between p-0">
+      <NavBar />
+    </main>
+  );
 }
