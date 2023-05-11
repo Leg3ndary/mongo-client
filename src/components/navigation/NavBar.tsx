@@ -9,9 +9,9 @@ const NavBar = () => {
                 <a className="btn btn-ghost normal-case text-xl">My Website</a>
             </div>
             <div className="flex-none">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu menu-horizontal px-1 flex justify-end">
                     <li>
-                        <Link href="/">Home</Link>
+                        <Link className="" href="/">Home</Link>
                     </li>
                     <li>
                         <Link href="/connect">Connect</Link>
