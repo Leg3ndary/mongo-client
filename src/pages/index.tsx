@@ -4,6 +4,6 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
     return (
-        <h1>Mongo Client</h1>
+        <h1>MedAI</h1>
     );
 }
